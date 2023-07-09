@@ -1,7 +1,8 @@
 ## Setup
+* Open a terminal
 * Make sure you have python3 installed
 * Go to the directory where you cloned this repository to
-* Execute any version by typing e.g. <code>./snake_table_variable_rows.py</code>
+* Execute any version by typing e.g. <code>./snake_table_variable_rows.py</code> in the terminal
 * If it doesn't work: type <code>chmod +x *.py</code> and then run again
 
 ## Different implementations
