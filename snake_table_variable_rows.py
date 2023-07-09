@@ -22,4 +22,12 @@ def print_snake_table(arr, rows=2):
         print("")
 
 
-print_snake_table(input("Enter input: "), int(input("Enter number of rows: ")))
+number_of_rows_string = input("Enter number of rows: ")
+if not number_of_rows_string.isdigit():
+    print("Please enter a valid number of rows")
+else:
+    if int(number_of_rows_string) < 1:
+        print("Please enter a strictly positive number of rows")
+    else:
+        user_input = input("Enter input: ")
+        print_snake_table(user_input, int(number_of_rows_string))
