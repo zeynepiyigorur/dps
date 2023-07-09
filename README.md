@@ -1,8 +1,8 @@
 ## Setup
 * Make sure you have python3 installed
 * Go to the directory where you cloned this repository to
-* type <code>chmod +x *.py</code>
 * Execute any version by typing e.g. <code>./snake_table_variable_rows.py</code>
+* If it doesn't work: type <code>chmod +x *.py</code> and then run again
 
 ## Different implementations
 The file [snake_table_first_idea](./snake_table_first_idea.py) is my first idea when I looked at this task. I then
